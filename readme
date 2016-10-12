@@ -1,0 +1,19 @@
+This code is an re-implementation of HD-LSTM based on TensorFlow
+
+The code is tested on Mac OS Yosemite (CPU only) and Ubuntu 14.04 (Quadro K5000, cuda 7.5) with Python 2.7, and should be shortly working with Windows machines. Please refer to relevant resources for the installation of TensorFlow. If you are learning shape representations on a small dataset, such as McGill, a CPU-based version should be adquate. 
+
+Please note that so far the published code is incomplete. A more complete version with a full demo file and more descriptions should soon be updated (most probably in late November). But the published code should be sufficient for learning robust 3D shape representations with LSTM.
+
+If you find any bugs or have any questions, please contact the author at fanzhu1987@gmail.com
+
+If you think the code is helpful, please cite our work
+
+@inproceedings{zhu2016heat,
+  title={Heat Diffusion Long-Short Term Memory Learning for 3D Shape Analysis},
+  author={Zhu, Fan and Xie, Jin and Fang, Yi},
+  booktitle={European Conference on Computer Vision},
+  pages={305--321},
+  year={2016},
+  organization={Springer}
+}
+ 
